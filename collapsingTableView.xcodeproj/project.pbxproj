@@ -14,13 +14,13 @@
 		79B9958519BC55CB0017FCA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B9958419BC55CB0017FCA2 /* main.m */; };
 		79B9958919BC55CB0017FCA2 /* CTVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B9958819BC55CB0017FCA2 /* CTVAppDelegate.m */; };
 		79B9958C19BC55CB0017FCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B9958A19BC55CB0017FCA2 /* Main.storyboard */; };
-		79B9958F19BC55CB0017FCA2 /* CTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B9958E19BC55CB0017FCA2 /* CTVViewController.m */; };
 		79B9959119BC55CB0017FCA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B9959019BC55CB0017FCA2 /* Images.xcassets */; };
 		79B9959819BC55CB0017FCA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9959719BC55CB0017FCA2 /* XCTest.framework */; };
 		79B9959919BC55CB0017FCA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9957819BC55CB0017FCA2 /* Foundation.framework */; };
 		79B9959A19BC55CB0017FCA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B9957C19BC55CB0017FCA2 /* UIKit.framework */; };
 		79B995A219BC55CB0017FCA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79B995A019BC55CB0017FCA2 /* InfoPlist.strings */; };
 		79B995A419BC55CB0017FCA2 /* collapsingTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B995A319BC55CB0017FCA2 /* collapsingTableViewTests.m */; };
+		79B995AF19BC56BE0017FCA2 /* CTVCollapsingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B995AE19BC56BE0017FCA2 /* CTVCollapsingTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		79B9958719BC55CB0017FCA2 /* CTVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTVAppDelegate.h; sourceTree = "<group>"; };
 		79B9958819BC55CB0017FCA2 /* CTVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTVAppDelegate.m; sourceTree = "<group>"; };
 		79B9958B19BC55CB0017FCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		79B9958D19BC55CB0017FCA2 /* CTVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTVViewController.h; sourceTree = "<group>"; };
-		79B9958E19BC55CB0017FCA2 /* CTVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTVViewController.m; sourceTree = "<group>"; };
 		79B9959019BC55CB0017FCA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79B9959619BC55CB0017FCA2 /* collapsingTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collapsingTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B9959719BC55CB0017FCA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		79B9959F19BC55CB0017FCA2 /* collapsingTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "collapsingTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		79B995A119BC55CB0017FCA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79B995A319BC55CB0017FCA2 /* collapsingTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collapsingTableViewTests.m; sourceTree = "<group>"; };
+		79B995AD19BC56BE0017FCA2 /* CTVCollapsingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTVCollapsingTableViewController.h; sourceTree = "<group>"; };
+		79B995AE19BC56BE0017FCA2 /* CTVCollapsingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTVCollapsingTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +115,10 @@
 				79B9958719BC55CB0017FCA2 /* CTVAppDelegate.h */,
 				79B9958819BC55CB0017FCA2 /* CTVAppDelegate.m */,
 				79B9958A19BC55CB0017FCA2 /* Main.storyboard */,
-				79B9958D19BC55CB0017FCA2 /* CTVViewController.h */,
-				79B9958E19BC55CB0017FCA2 /* CTVViewController.m */,
 				79B9959019BC55CB0017FCA2 /* Images.xcassets */,
 				79B9957F19BC55CB0017FCA2 /* Supporting Files */,
+				79B995AD19BC56BE0017FCA2 /* CTVCollapsingTableViewController.h */,
+				79B995AE19BC56BE0017FCA2 /* CTVCollapsingTableViewController.m */,
 			);
 			path = collapsingTableView;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 			files = (
 				79B9958919BC55CB0017FCA2 /* CTVAppDelegate.m in Sources */,
 				79B9958519BC55CB0017FCA2 /* main.m in Sources */,
-				79B9958F19BC55CB0017FCA2 /* CTVViewController.m in Sources */,
+				79B995AF19BC56BE0017FCA2 /* CTVCollapsingTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
